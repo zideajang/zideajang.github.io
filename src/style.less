@@ -1,0 +1,27 @@
+// 定义颜色
+@primary-color: #3498DB;
+@secondary-color:#F7DC6F;
+
+@lager-font-size: 1.5em;
+
+@margin: 12px;
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    background-color: @secondary-color;
+    min-height: 256px;
+    width: 100%;
+}
+
+.nav{
+    background-color: @primary-color;
+    height: 48px;
+    width: 100%;
+    .title{
+        font-size: @lager-font-size;
+        color: white;
+    }
+}
