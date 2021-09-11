@@ -428,3 +428,8 @@ h2 {
     display: none;
   }
 }
+a{
+  color:white;
+  text-decoration: none;
+  font-size: 1.5em;
+}
