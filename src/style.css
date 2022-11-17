@@ -6,6 +6,7 @@
   box-sizing: border-box;
 }
 
+/* Variables */
 :root{
   --container-color:#1a1e21;
   --second-color:#fd8f44;
@@ -33,6 +34,7 @@ section{
 }
 .container{
   max-width: 1068px;
+  margin: auto;
   width: 100%;
 }
 
@@ -55,7 +57,7 @@ header{
 .logo{
   font-size: 1.5rem;
   font-weight: 600;
-  color: var(--text-color);
+  color: var(--bg-color);
 }
 
 .logo span{
@@ -96,6 +98,7 @@ header{
   font-weight: 400;
 }
 
+/* Post Filter */
 .post-filter{
   display: flex;
   justify-content: center;
@@ -112,7 +115,7 @@ header{
 .active-filter{
   background: var(--second-color);
   color: var(--bg-color);
-  padding: 4px;
+  padding: 4px 10px;
   border-radius: 4px;
 }
 
@@ -137,7 +140,6 @@ header{
   object-position: center;
   border-radius: 0.5rem;
 }
-
 
 .category{
   font-size: 0.9rem;
@@ -183,7 +185,7 @@ header{
   height: 35px;
   border-radius: 50%;
   object-fit: cover;
-  
+
 }
 
 
